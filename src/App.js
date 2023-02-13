@@ -19,6 +19,7 @@ function App() {
             <button
               className="btn btn-danger mx-3"
               onClick={() => setCount(count - 1)}
+              disabled={count === 0}
             >
               Decrement
             </button>
